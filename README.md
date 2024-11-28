@@ -27,3 +27,10 @@ dotnet test
 1. Solve failing tests in `FirstTestClass.cs`
 2. Add missing test implementation in `SecondTestClass.cs`
 3. Add missing test implementation in `Steps.cs` using Page Object Model
+
+## Troubleshooting
+1. If there are no steps generated in the feature file, try running the following command in the terminal
+```
+dotnet test --filter TestCategory=example --logger:"console;verbosity=detailed"  
+```
+and then copy them to the `Steps.cs` file

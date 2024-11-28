@@ -3,7 +3,7 @@ Feature: SpecFlowFeature
 	As a browser user
 	I want to make sure that page title is correct
 
-	@north_example
+	@example
 	Scenario: Check page title
 		Given I have opened the browser
 		And I have entered page url
